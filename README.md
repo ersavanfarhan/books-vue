@@ -10,7 +10,7 @@ npm install -g @vue/cli
 
 ### Download entire repository or clone the project to your directory using git
 ```
-git clone https://github.com/ersavanfarhan/shopping-page-vue.git
+git clone https://github.com/ersavanfarhan/books-vue.git 
 ```
 
 ### Activating API from database
