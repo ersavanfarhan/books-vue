@@ -22,5 +22,17 @@ npx json-server --watch db.json --port=3000
 ## Running the project
 Open index file in dist folder
 
+## Login Access
+```
+Admin --> username : admin
+          password  : password
+
+Member1 --> username : member
+            password : password
+            
+Member2 --> username : member2
+            password : password
+```
+
 # Preview
 ![booksvue-01](https://user-images.githubusercontent.com/113334783/212221614-37772bc6-d36a-479c-b4f1-217869900ddc.jpg)
