@@ -1,24 +1,26 @@
-# books-vue
-
-## Project setup
+# How To Run The Project
+This project requires Node.js version 8.9 or above (v10+ recommended).
 ```
 npm install
 ```
-
-### Compiles and hot-reloads for development
 ```
-npm run serve
+npm install -g @vue/cli
 ```
 
-### Compiles and minifies for production
+
+### Download entire repository or clone the project to your directory using git
 ```
-npm run build
+git clone https://github.com/ersavanfarhan/shopping-page-vue.git
 ```
 
-### Lints and fixes files
+### Activating API from database
+Open project with your code editor and run this command below
 ```
-npm run lint
+npx json-server --watch db.json --port=3000
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+## Running the project
+Open index file in dist folder
+
+# Preview
+![booksvue-01](https://user-images.githubusercontent.com/113334783/212221614-37772bc6-d36a-479c-b4f1-217869900ddc.jpg)
