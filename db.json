@@ -1,0 +1,95 @@
+{
+  "user": [
+    {
+      "id": "1",
+      "name": "Member",
+      "email": "member",
+      "password": "password",
+      "confirm": "password"
+    },
+    {
+      "id": "2",
+      "name": "Member 2",
+      "email": "member2",
+      "password": "password",
+      "confirm": "password"
+    },
+    {
+      "id": "3",
+      "name": "Admin",
+      "email": "admin",
+      "password": "password",
+      "confirm": "password"
+    }
+  ],
+  "book1": [
+    {
+      "id": 1,
+      "title": "Hunger Games",
+      "author": "Suzane Collins",
+      "published": "2008"
+    },
+    {
+      "id": 2,
+      "title": "Harry Potter #5",
+      "author": "JK Rowling",
+      "published": 2003
+    },
+    {
+      "id": 3,
+      "title": "Pride and Prejudice",
+      "author": "Jane Austen",
+      "published": 1813
+    },
+    {
+      "id": 4,
+      "title": "To Kill A Mockingbird",
+      "author": "Harper Lee",
+      "published": 1960
+    },
+    {
+      "id": 5,
+      "title": "The Book of Thief",
+      "author": "Markus Suzak",
+      "published": 2006
+    },
+    {
+      "id": 6,
+      "title": "Twilight",
+      "author": "Stephenie Meyer",
+      "published": 2005
+    },
+    {
+      "id": 7,
+      "title": "Animal Farm",
+      "author": "George Orwell",
+      "published": 1945
+    }
+  ],
+  "book2": [
+    {
+      "id": 1,
+      "title": "Cantik Itu Luka",
+      "author": "Eka Kurniawan",
+      "published": "2002"
+    },
+    {
+      "id": 2,
+      "title": "The Star and I",
+      "author": "Ilana Tan",
+      "published": "2021"
+    },
+    {
+      "title": "Bibi Gill",
+      "author": "Tere Liye",
+      "published": "2022",
+      "id": 3
+    },
+    {
+      "title": "Layangan Putus",
+      "author": "Mommy ASF",
+      "published": "2020",
+      "id": 4
+    }
+  ]
+}
