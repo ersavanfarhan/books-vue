@@ -1,6 +1,6 @@
 <template>
     <!-- Button For Modal -->
-    <button type="button" class="btn btn-primary mb-3" data-bs-toggle="modal" data-bs-target="#modalAddList">
+    <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalAddList">
         Add List
     </button>
 
@@ -30,8 +30,8 @@
                     </div>
                 </div>
                 <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
-                    <button type="button" class="btn btn-primary" data-bs-dismiss="modal" @click="addList()">Add To
+                    <button class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+                    <button class="btn btn-primary" data-bs-dismiss="modal" @click="addList()">Add To
                         List</button>
                 </div>
             </div>

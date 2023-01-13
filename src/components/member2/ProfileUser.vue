@@ -1,7 +1,7 @@
 <template>
     <div class="my-3 text-justify">
         <h3>Bio :</h3>
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perferendis cupiditate qui ad a voluptate iste
+        <p class="mb-3">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perferendis cupiditate qui ad a voluptate iste
             molestias quia rem enim provident odio minima blanditiis reprehenderit id eum, dolorum nam, dolores laborum.
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Culpa officiis explicabo modi illum? Ad eos earum
             assumenda debitis dolore. Accusantium odit ducimus quas enim fugit vero velit ipsum alias iure.</p>
@@ -18,7 +18,7 @@
                 <div class="modal-content">
                     <div class="modal-header">
                         <h1 class="modal-title fs-5" id="staticBackdropLabel">USER SETTING</h1>
-                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        <button class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
                     <div class="modal-body grid gap-3">
                         <div>
@@ -53,8 +53,8 @@
                     </div>
 
                     <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
-                        <button type="button" class="btn btn-primary" data-bs-dismiss="modal"
+                        <button class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+                        <button class="btn btn-primary" data-bs-dismiss="modal"
                             @click="userSetting()">Update</button>
                     </div>
                 </div>

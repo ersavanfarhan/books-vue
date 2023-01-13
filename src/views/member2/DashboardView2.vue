@@ -5,16 +5,16 @@
             <div class="flex gap-3 items-center">
                 <img class="xs:w-28 w-32" src="../../assets/profile.png" />
                 <div>
-                    <h3 class="xs:text-md">{{ user.name }}'s Dashboard</h3>
+                    <label class="xs:text-xl text-3xl font-semibold">{{ user.name }}'s Dashboard</label>
                     <div class="xs:block flex gap-3">
                         <div id="dashboardNav">
-                            <h6 class="xs:text-sm hover:text-sky-500" type="button" @click="showDashboard()">Dashboard</h6>
+                            <label class="xs:text-lg text-base hover:text-sky-500" type="button" @click="showDashboard()">Dashboard</label>
                         </div>
 
-                        <h6 class="xs:hidden">||</h6>
+                        <label class="xs:hidden">||</label>
 
                         <div id="listNav" @click="showList()">
-                            <h6 class="xs:text-sm hover:text-sky-500" type="button">List-Book</h6>
+                            <label class="xs:text-lg text-base hover:text-sky-500" type="button">List-Book</label>
                         </div>
                     </div>
                 </div>

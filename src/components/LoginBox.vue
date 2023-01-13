@@ -1,7 +1,7 @@
 <template>
     <div id="wrapper" class="xs:p-3 sm:px-5 md:px-48 lg:px-80 xl:px-96">
         <div id="box" class="grid gap-5 p-5 border-2 border-green-900 rounded-2xl">
-            <h1 class="m-0">LOGIN</h1>
+            <label class="m-0 text-5xl">LOGIN</label>
 
             <div>
                 <label for="exampleFormControlInput1" class="form-label">Username</label>
@@ -77,3 +77,4 @@ export default {
     }
 }
 </script>
+

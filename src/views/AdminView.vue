@@ -5,18 +5,18 @@
             <div class="flex gap-3 items-center">
                 <img class="xs:w-28 w-32" src="../assets/profile.png" />
                 <div>
-                    <h3 class="xs:text-md">Admin's Dashboard</h3>
+                    <label class="xs:text-xl text-3xl font-semibold">Admin's Dashboard</label>
                     <div class="xs:block flex gap-3">
                         <div id="member1">
-                            <router-link :to="('/member')" class="xs:text-sm no-underline">
+                            <router-link :to="('/member')" class="xs:text-sm text-base no-underline">
                                 Member 1
                             </router-link>
                         </div>
 
-                        <h6 class="xs:hidden">||</h6>
+                        <label class="xs:hidden">||</label>
 
                         <div id="member2">
-                            <router-link :to="('/member2')" class="xs:text-sm no-underline">
+                            <router-link :to="('/member2')" class="xs:text-sm text-base no-underline">
                                 Member 2
                             </router-link>
                         </div>

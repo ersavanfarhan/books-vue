@@ -1,6 +1,6 @@
 <template>
     <div>
-        <h3 class="my-3">My List</h3>
+        <label class="xs:text-xl text-3xl font-semibold my-3">My List</label>
         <BookTable />
         <ModalAdd />
     </div>
